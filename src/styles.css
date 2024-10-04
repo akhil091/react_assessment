@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.dark {
+  background: black;
+  color: white;
+}
+.light {
+  background: white;
+  color: black;
+}
+.grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
